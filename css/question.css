@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "TTWanjudaedunsancheB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/TTWanjudaedunsancheB.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "TTWanjudaedunsancheB";
+  background-color: lightpink;
+  overflow: hidden;
+}
+.contents {
+  margin-top: 75px;
+}
+.container {
+  /* max-width: 500px; */
+  width: 50%;
+  height: 75%;
+  padding: 30px 70px;
+  margin: auto auto 150px;
+  margin-top: 75px;
+  border: 1px solid pink;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  background-color: white;
+}
+
+.topBar {
+  padding-top: 30px;
+}
+
+.progress {
+  font-size: 40px;
+  line-height: 0.93;
+  text-align: center;
+  color: black;
+  margin-bottom: 28px;
+}
+
+.main {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.43;
+  text-align: center;
+  color: black;
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.qcontent {
+  width: auto;
+  font-weight: 500;
+  padding: 34px 18px 34px 26px;
+  border-radius: 6px;
+  background-color: rgb(62, 62, 70);
+  font-size: 40px;
+  line-height: 1.44;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+}
+.or {
+  font-size: 28px;
+  line-height: 1.43;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
