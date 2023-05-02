@@ -1,0 +1,47 @@
+body {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 50vh;
+  background-color: lightpink;
+}
+
+@font-face {
+  font-family: "TTWanjudaedunsancheB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/TTWanjudaedunsancheB.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.main {
+  width: 50%;
+  padding: 30px 50px;
+  margin-top: 5em;
+  border: 1px solid pink;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  background-color: white;
+}
+.main2 {
+  width: 50%;
+  padding: 30px 50px;
+  margin-top: 3em;
+  border: 1px solid pink;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  background-color: white;
+}
+
+#result-title {
+  font-family: "TTWanjudaedunsancheB";
+  font-size: 50px;
+  text-align: center;
+}
+
+#result-ex {
+  font-family: "TTWanjudaedunsancheB";
+  font-size: 25px;
+}
