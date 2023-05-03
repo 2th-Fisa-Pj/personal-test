@@ -1,6 +1,10 @@
 const resultTitle = document.getElementById("result-title");
 const resultEx = document.getElementById("result-ex");
 
+const queryString = location.search;
+const urlParams = new URLSearchParams(queryString);
+const result = urlParams.get("result");
+
 const printResult = (result) => {
   if (result === "프론트") {
     resultTitle.textContent = "프론트엔드 개발자!";
@@ -17,4 +21,4 @@ const printResult = (result) => {
   }
 };
 
-printResult("프론트");
+printResult(result);
