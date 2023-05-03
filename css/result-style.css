@@ -16,24 +16,15 @@ body {
 
 .main {
   width: 50%;
-  padding: 30px 50px;
-  margin-top: 5em;
-  border: 1px solid pink;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  text-align: center;
-  background-color: white;
-  /* test */
-}
-.main2 {
-  width: 50%;
-  padding: 30px 50px;
+  height: 90%;
+  padding: 30px 40px 10px 40px;
   margin-top: 3em;
   border: 1px solid pink;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   text-align: center;
   background-color: white;
+  /* test */
 }
 
 #result-title {
@@ -45,4 +36,26 @@ body {
 #result-ex {
   font-family: "TTWanjudaedunsancheB";
   font-size: 25px;
+  margin-bottom: 2.5em;
+}
+
+#result-img {
+  display: flex;
+  justify-content: center;
+}
+
+#result-share-container {
+  margin: 30px;
+}
+
+#result-share {
+  font-family: "TTWanjudaedunsancheB";
+  padding: 1em 2em;
+  background-color: lightcoral;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  color: black;
 }
