@@ -1,6 +1,6 @@
 * {
   background-color: lightpink;
-  overflow: hidden;
+  max-height: 100%;
 }
 
 body {
@@ -20,6 +20,7 @@ body {
 }
 
 .title {
+  /* margin-top: 150px; */
   font-size: 65px;
   font-family: "TTWanjudaedunsancheB";
 }

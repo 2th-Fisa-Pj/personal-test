@@ -8,7 +8,7 @@ const result = urlParams.get("result");
 const printResult = (result) => {
   if (result === "프론트") {
     resultTitle.textContent = "프론트엔드 개발자!";
-    resultEx.textContent = ` 프론트엔드`;
+    resultEx.innerHTML = "프론트엔드</br>성공?";
     return resultTitle.value;
   } else if (result === "백엔드") {
     resultTitle.textContent = "당신은 백엔드 개발자 입니다.";
