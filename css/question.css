@@ -18,6 +18,7 @@ html {
   height: 100vh;
   font-family: "TTWanjudaedunsancheB";
   background-color: lightpink;
+  overflow: hidden;
 }
 .contents {
   margin-top: 75px;
